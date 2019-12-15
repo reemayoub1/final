@@ -1,0 +1,1 @@
+"0","crimeVhomic%>%group_by(year)%>%mutate(tot_crime = (cumsum(Assault) + cumsum(AutoTheft) + cumsum(BreakandEnter) + cumsum(Robbery) + cumsum(TheftOver) +cumsum(Homicide)))%>%select(tot_crime,year)%>%summarize_if(is.numeric, list(max=max), na.rm=T)%>%arrange(desc(max))"

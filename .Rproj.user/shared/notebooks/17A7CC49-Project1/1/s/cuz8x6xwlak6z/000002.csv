@@ -1,0 +1,12 @@
+"0","Homicide <- read.csv(""Homicide.csv"")"
+"0","cols.dont.want <- ""Occurrence_Date"""
+"0","Homicide <- Homicide[, ! names(Homicide) %in% cols.dont.want, drop = F]"
+"0",""
+"0",""
+"0","Homi <- Homicide %>%  filter(year > 2013) %>%group_by(Neighbourhood) %>% dplyr::count(Neighbourhood, Homicide_Type)%>%pivot_wider(names_from = ""Homicide_Type"", values_from = ""n"")%>%mutate_if(is.numeric, ~replace(., is.na(.), 0))"
+"2","`mutate_if()` ignored the following grouping variables:
+Column `Neighbourhood`
+"
+"0"," "
+"0","crimeVhomic <- full_join(crime, Homi, by =(""Neighbourhood""))%>%mutate_if(is.numeric, ~replace(., is.na(.), 0))"
+"2","Column `Neighbourhood` joining factors with different levels, coercing to character vector"

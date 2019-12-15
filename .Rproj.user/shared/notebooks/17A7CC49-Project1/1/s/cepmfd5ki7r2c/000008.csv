@@ -1,0 +1,1 @@
+"0","ch_pca$scores%>%as.data.frame%>%cbind(hood,.)%>%top_n(3,Comp.2)"

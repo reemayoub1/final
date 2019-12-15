@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1576450712390.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2993228057",
+    "id" : "8B7A5190",
+    "lastKnownWriteTime" : 1576450821,
+    "last_content_update" : 1576450821184,
+    "path" : "~/Desktop/Reem/content/blog/2019-12-15-python-exploration.Rmd",
+    "project_path" : "content/blog/2019-12-15-python-exploration.Rmd",
+    "properties" : {
+        "cursorPosition" : "27,0",
+        "scrollLine" : "11"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 7,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

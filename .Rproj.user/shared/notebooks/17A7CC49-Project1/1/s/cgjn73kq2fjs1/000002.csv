@@ -1,0 +1,4 @@
+"0","                                                   "
+"0","crimeVhomic%>%group_by(Neighbourhood)%>%filter(Neighbourhood == ""Black Creek"") %>%select(Assault,AutoTheft, BreakandEnter, Robbery, TheftOver, Homicide)%>%summarize_if(is.numeric, list(max=max), na.rm=T)"
+"2","Adding missing grouping variables: `Neighbourhood`
+"

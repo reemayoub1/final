@@ -1,0 +1,1 @@
+"0","crimeVhomic%>%select(Assault,AutoTheft,BreakandEnter,Robbery,TheftOver,Homicide) %>%summarize_all(n_distinct)"

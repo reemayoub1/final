@@ -1,0 +1,2 @@
+"0",""
+"0","ggplot(subset(crimeVhomic, Homicide> 3), aes(Homicide, Assault, color=Neighbourhood))+geom_point(size=4)+ggtitle(""Assults and Homicides per Yearfor 8 Neighbourhoods in Toronto"")+ theme_stata()"

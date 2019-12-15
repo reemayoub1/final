@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1576449994837.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2440558221",
+    "id" : "EB1F719B",
+    "lastKnownWriteTime" : 1576450636,
+    "last_content_update" : 1576450636628,
+    "path" : "~/Desktop/Reem/content/Project2.Rmd",
+    "project_path" : "content/Project2.Rmd",
+    "properties" : {
+        "cursorPosition" : "236,8",
+        "last_setup_crc32" : "496CB1FF18785667",
+        "scrollLine" : "229"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

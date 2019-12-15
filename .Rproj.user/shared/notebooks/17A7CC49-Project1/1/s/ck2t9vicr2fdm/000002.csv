@@ -1,0 +1,14 @@
+"0","perc_hom <- crimeVhomic %>% group_by(year, Neighbourhood) %>% mutate(perc_hom = cumsum(Homicide)/(cumsum(Assault) + cumsum(AutoTheft) + cumsum(BreakandEnter) + cumsum(Robbery) + cumsum(TheftOver) +cumsum(Homicide))*100)%>%select(year, perc_hom,Neighbourhood)"
+"0",""
+"0","crimeVhomic <- left_join(crimeVhomic, perc_hom)"
+"2","Joining, by = c(""Neighbourhood"", ""year"")
+"
+"0","crimeVhomic<- na.omit(crimeVhomic)"
+"0",""
+"0","perc_assu <- crimeVhomic %>% group_by(year, Neighbourhood) %>% mutate(perc_assu = cumsum(Assault)/(cumsum(Assault) + cumsum(AutoTheft) + cumsum(BreakandEnter) + cumsum(Robbery) + cumsum(TheftOver) +cumsum(Homicide))*100)%>%select(year, perc_assu, Neighbourhood)"
+"0",""
+"0","crimeVhomic <- left_join(crimeVhomic, perc_assu)"
+"2","Joining, by = c(""Neighbourhood"", ""year"")
+"
+"0","crimeVhomic<- na.omit(crimeVhomic)"
+"0",""

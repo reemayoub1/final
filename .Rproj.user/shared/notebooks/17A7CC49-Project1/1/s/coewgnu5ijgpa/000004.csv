@@ -1,0 +1,4 @@
+"0","library(ggplot2)"
+"0","library(cluster)"
+"0",""
+"0","ggplot(subset(crimeVhomic, Assault> 400), aes(year, Assault, color=Neighbourhood))+geom_point(size=4)+ggtitle(""Assults per year for 9 Neighbourhoods in Toronto"") + theme_dark()"
